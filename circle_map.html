@@ -1,0 +1,4663 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_72f8db39dd5a414b95b82874092db558 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_72f8db39dd5a414b95b82874092db558" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_72f8db39dd5a414b95b82874092db558 = L.map(
+        'map_72f8db39dd5a414b95b82874092db558', {
+        center: [30, 15],
+        zoom: 2,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_60ebd81a6c534d8fb1eb02cb44b44c5d = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_72f8db39dd5a414b95b82874092db558);
+    
+
+            var circle_ac5f7fc353b64cc9a7c45a0cab0b08ea = L.circle(
+                [-11.8775768, 17.5691241],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1688.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_3b42da7cb14a4bd79d694586ea78343c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0420a27c257f45f5b255a50a127e42a1 = $(`<div id="html_0420a27c257f45f5b255a50a127e42a1" style="width: 100.0%; height: 100.0%;">Country:<b>Angola</b> Cases:<b>25320</b></div>`)[0];
+                popup_3b42da7cb14a4bd79d694586ea78343c.setContent(html_0420a27c257f45f5b255a50a127e42a1);
+            
+
+            circle_ac5f7fc353b64cc9a7c45a0cab0b08ea.bindPopup(popup_3b42da7cb14a4bd79d694586ea78343c)
+            ;
+
+            
+        
+    
+
+            var circle_0fdb91753cd5414aacb14a5709305b7d = L.circle(
+                [-34.9964963, -64.9672817],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 13457.6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_3d95863fab434caaa807b72231a84caa = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1280abf584fd42118a21b39146224ced = $(`<div id="html_1280abf584fd42118a21b39146224ced" style="width: 100.0%; height: 100.0%;">Country:<b>Argentina</b> Cases:<b>201864</b></div>`)[0];
+                popup_3d95863fab434caaa807b72231a84caa.setContent(html_1280abf584fd42118a21b39146224ced);
+            
+
+            circle_0fdb91753cd5414aacb14a5709305b7d.bindPopup(popup_3d95863fab434caaa807b72231a84caa)
+            ;
+
+            
+        
+    
+
+            var circle_a80f9efad77a4f7bb0750eb0ac2290d0 = L.circle(
+                [12.4902998, -69.9609842],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4800.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_bbf2f5201ced43f6b6bbc3828d2b3067 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b4dd36fda74a452fa07ea840ae6af76c = $(`<div id="html_b4dd36fda74a452fa07ea840ae6af76c" style="width: 100.0%; height: 100.0%;">Country:<b>Aruba</b> Cases:<b>72000</b></div>`)[0];
+                popup_bbf2f5201ced43f6b6bbc3828d2b3067.setContent(html_b4dd36fda74a452fa07ea840ae6af76c);
+            
+
+            circle_a80f9efad77a4f7bb0750eb0ac2290d0.bindPopup(popup_bbf2f5201ced43f6b6bbc3828d2b3067)
+            ;
+
+            
+        
+    
+
+            var circle_ceef875cdf7a4503899866539ca95dd7 = L.circle(
+                [-24.7761086, 134.755],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 75518.4,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_d67b90eda11e41d7b1083e84e04710e8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_95b0be5a9e38439b9e397aeec65ab58b = $(`<div id="html_95b0be5a9e38439b9e397aeec65ab58b" style="width: 100.0%; height: 100.0%;">Country:<b>Australia</b> Cases:<b>1132776</b></div>`)[0];
+                popup_d67b90eda11e41d7b1083e84e04710e8.setContent(html_95b0be5a9e38439b9e397aeec65ab58b);
+            
+
+            circle_ceef875cdf7a4503899866539ca95dd7.bindPopup(popup_d67b90eda11e41d7b1083e84e04710e8)
+            ;
+
+            
+        
+    
+
+            var circle_064990927a384f7282f2779ab45bfc68 = L.circle(
+                [47.59397, 14.12456],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 20128.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_920d37ee87a44d2cbb7c7e65714455ac = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b1b2bb5fda434a30a832bc5733529918 = $(`<div id="html_b1b2bb5fda434a30a832bc5733529918" style="width: 100.0%; height: 100.0%;">Country:<b>Austria</b> Cases:<b>301920</b></div>`)[0];
+                popup_920d37ee87a44d2cbb7c7e65714455ac.setContent(html_b1b2bb5fda434a30a832bc5733529918);
+            
+
+            circle_064990927a384f7282f2779ab45bfc68.bindPopup(popup_920d37ee87a44d2cbb7c7e65714455ac)
+            ;
+
+            
+        
+    
+
+            var circle_8bc8815701c445cd9bffd647a3e399f6 = L.circle(
+                [26.1551249, 50.5344606],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3587.2,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_bd5639ed127640c7a02b05da5825ea22 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_7207605fcfe94c83b9232106457177b8 = $(`<div id="html_7207605fcfe94c83b9232106457177b8" style="width: 100.0%; height: 100.0%;">Country:<b>Bahrain</b> Cases:<b>53808</b></div>`)[0];
+                popup_bd5639ed127640c7a02b05da5825ea22.setContent(html_7207605fcfe94c83b9232106457177b8);
+            
+
+            circle_8bc8815701c445cd9bffd647a3e399f6.bindPopup(popup_bd5639ed127640c7a02b05da5825ea22)
+            ;
+
+            
+        
+    
+
+            var circle_c3328176d06b4a458537ca051ece8955 = L.circle(
+                [23.5031022, 90.00386523825051],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5920.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_29223c6fc48b4586b4f85e84f571bee5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_446745127a6f4954b874c173680eb59a = $(`<div id="html_446745127a6f4954b874c173680eb59a" style="width: 100.0%; height: 100.0%;">Country:<b>Bangladesh</b> Cases:<b>88800</b></div>`)[0];
+                popup_29223c6fc48b4586b4f85e84f571bee5.setContent(html_446745127a6f4954b874c173680eb59a);
+            
+
+            circle_c3328176d06b4a458537ca051ece8955.bindPopup(popup_29223c6fc48b4586b4f85e84f571bee5)
+            ;
+
+            
+        
+    
+
+            var circle_fae27d495b1145e8a7a85949b0484a7a = L.circle(
+                [50.6402809, 4.6667145],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 120043.2,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_a29cbee7fce3440da01cc0f0163e24db = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2d9ae6e9c1484742808ff866c880b8e9 = $(`<div id="html_2d9ae6e9c1484742808ff866c880b8e9" style="width: 100.0%; height: 100.0%;">Country:<b>Belgium</b> Cases:<b>1800648</b></div>`)[0];
+                popup_a29cbee7fce3440da01cc0f0163e24db.setContent(html_2d9ae6e9c1484742808ff866c880b8e9);
+            
+
+            circle_fae27d495b1145e8a7a85949b0484a7a.bindPopup(popup_a29cbee7fce3440da01cc0f0163e24db)
+            ;
+
+            
+        
+    
+
+            var circle_94e7b62180704567864ed34d3fd99267 = L.circle(
+                [16.8259793, -88.7600927],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 502.4,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_bf0f29f150cd42baaa8ebd5a6256412a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6460b42f23f04294a6f840b84fdcfcca = $(`<div id="html_6460b42f23f04294a6f840b84fdcfcca" style="width: 100.0%; height: 100.0%;">Country:<b>Belize</b> Cases:<b>7536</b></div>`)[0];
+                popup_bf0f29f150cd42baaa8ebd5a6256412a.setContent(html_6460b42f23f04294a6f840b84fdcfcca);
+            
+
+            circle_94e7b62180704567864ed34d3fd99267.bindPopup(popup_bf0f29f150cd42baaa8ebd5a6256412a)
+            ;
+
+            
+        
+    
+
+            var circle_2f4f5bdb8503461aa9ac55d23c0576fb = L.circle(
+                [9.5293472, 2.2584408],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1200.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_90c0cca6022b4940b9b3c73787a4ae6e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6029314750c643f6a9bfa10dfbf96d10 = $(`<div id="html_6029314750c643f6a9bfa10dfbf96d10" style="width: 100.0%; height: 100.0%;">Country:<b>Benin</b> Cases:<b>18000</b></div>`)[0];
+                popup_90c0cca6022b4940b9b3c73787a4ae6e.setContent(html_6029314750c643f6a9bfa10dfbf96d10);
+            
+
+            circle_2f4f5bdb8503461aa9ac55d23c0576fb.bindPopup(popup_90c0cca6022b4940b9b3c73787a4ae6e)
+            ;
+
+            
+        
+    
+
+            var circle_81075996ab1a48a6b5987335c204885e = L.circle(
+                [44.3053476, 17.5961467],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1587.2,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_b2ca683f45aa436ba60cba55cbf8cd12 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6aba2010a2c044ab98e9e2bfe578caf9 = $(`<div id="html_6aba2010a2c044ab98e9e2bfe578caf9" style="width: 100.0%; height: 100.0%;">Country:<b>Bosnia and Herzegovina</b> Cases:<b>23808</b></div>`)[0];
+                popup_b2ca683f45aa436ba60cba55cbf8cd12.setContent(html_6aba2010a2c044ab98e9e2bfe578caf9);
+            
+
+            circle_81075996ab1a48a6b5987335c204885e.bindPopup(popup_b2ca683f45aa436ba60cba55cbf8cd12)
+            ;
+
+            
+        
+    
+
+            var circle_32005ecebdc64391a1256d29c417e96e = L.circle(
+                [-23.1681782, 24.5928742],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3520.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_a73299d3cbce42ff83e57a0417785a0d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_af759a89b7b64e74ad112f1631ab826c = $(`<div id="html_af759a89b7b64e74ad112f1631ab826c" style="width: 100.0%; height: 100.0%;">Country:<b>Botswana</b> Cases:<b>52800</b></div>`)[0];
+                popup_a73299d3cbce42ff83e57a0417785a0d.setContent(html_af759a89b7b64e74ad112f1631ab826c);
+            
+
+            circle_32005ecebdc64391a1256d29c417e96e.bindPopup(popup_a73299d3cbce42ff83e57a0417785a0d)
+            ;
+
+            
+        
+    
+
+            var circle_851fdc4338b8491caf5cee3046af3153 = L.circle(
+                [-10.3333333, -53.2],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 144032.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_6aab1c3add1e4ef4b2adf7853b0e9748 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0fe88e98262f4467ba82b33c54e0b741 = $(`<div id="html_0fe88e98262f4467ba82b33c54e0b741" style="width: 100.0%; height: 100.0%;">Country:<b>Brazil</b> Cases:<b>2160480</b></div>`)[0];
+                popup_6aab1c3add1e4ef4b2adf7853b0e9748.setContent(html_0fe88e98262f4467ba82b33c54e0b741);
+            
+
+            circle_851fdc4338b8491caf5cee3046af3153.bindPopup(popup_6aab1c3add1e4ef4b2adf7853b0e9748)
+            ;
+
+            
+        
+    
+
+            var circle_9583cfa9641f4eb6b8bcbe74a8b8bff1 = L.circle(
+                [4.4137155, 114.5653908],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 529.6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_681f07ab215b496fb0323637569e9a7d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d69ade6ba00b471a8f1d371556d0af51 = $(`<div id="html_d69ade6ba00b471a8f1d371556d0af51" style="width: 100.0%; height: 100.0%;">Country:<b>Brunei</b> Cases:<b>7944</b></div>`)[0];
+                popup_681f07ab215b496fb0323637569e9a7d.setContent(html_d69ade6ba00b471a8f1d371556d0af51);
+            
+
+            circle_9583cfa9641f4eb6b8bcbe74a8b8bff1.bindPopup(popup_681f07ab215b496fb0323637569e9a7d)
+            ;
+
+            
+        
+    
+
+            var circle_5587026fd2bd472388157e3135321af5 = L.circle(
+                [42.6073975, 25.4856617],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 16374.4,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_0d3980117c76464a937ff70ebd0bbd00 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a83eb9b910254767b668fad4101dfee9 = $(`<div id="html_a83eb9b910254767b668fad4101dfee9" style="width: 100.0%; height: 100.0%;">Country:<b>Bulgaria</b> Cases:<b>245616</b></div>`)[0];
+                popup_0d3980117c76464a937ff70ebd0bbd00.setContent(html_a83eb9b910254767b668fad4101dfee9);
+            
+
+            circle_5587026fd2bd472388157e3135321af5.bindPopup(popup_0d3980117c76464a937ff70ebd0bbd00)
+            ;
+
+            
+        
+    
+
+            var circle_cdadebfd7d4342f1ae6654722edb6dbc = L.circle(
+                [13.5066394, 104.869423],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3164.8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_0d5c33620c404aeaa604005267f6151b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_cd0b843a456947b7aa6e0787e0fdb051 = $(`<div id="html_cd0b843a456947b7aa6e0787e0fdb051" style="width: 100.0%; height: 100.0%;">Country:<b>Cambodia</b> Cases:<b>47472</b></div>`)[0];
+                popup_0d5c33620c404aeaa604005267f6151b.setContent(html_cd0b843a456947b7aa6e0787e0fdb051);
+            
+
+            circle_cdadebfd7d4342f1ae6654722edb6dbc.bindPopup(popup_0d5c33620c404aeaa604005267f6151b)
+            ;
+
+            
+        
+    
+
+            var circle_9c85db2721214fdc853a42ed24af5c56 = L.circle(
+                [4.6125522, 13.1535811],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 857.6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_3212c52d9d4a459fbecc50a7da8e626f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ac1a2c6187ed4739a7878baddc731e77 = $(`<div id="html_ac1a2c6187ed4739a7878baddc731e77" style="width: 100.0%; height: 100.0%;">Country:<b>Cameroon</b> Cases:<b>12864</b></div>`)[0];
+                popup_3212c52d9d4a459fbecc50a7da8e626f.setContent(html_ac1a2c6187ed4739a7878baddc731e77);
+            
+
+            circle_9c85db2721214fdc853a42ed24af5c56.bindPopup(popup_3212c52d9d4a459fbecc50a7da8e626f)
+            ;
+
+            
+        
+    
+
+            var circle_a29fe949b85b4901ba1526b2220de91c = L.circle(
+                [61.0666922, -107.991707],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 291016.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_de0dfec76dd9408792ef9edbab3e1ef3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_60efa1c888e24c5489413eece3c4cc36 = $(`<div id="html_60efa1c888e24c5489413eece3c4cc36" style="width: 100.0%; height: 100.0%;">Country:<b>Canada</b> Cases:<b>4365240</b></div>`)[0];
+                popup_de0dfec76dd9408792ef9edbab3e1ef3.setContent(html_60efa1c888e24c5489413eece3c4cc36);
+            
+
+            circle_a29fe949b85b4901ba1526b2220de91c.bindPopup(popup_de0dfec76dd9408792ef9edbab3e1ef3)
+            ;
+
+            
+        
+    
+
+            var circle_dd1fd37a54b749fd813df1cd2fe1644b = L.circle(
+                [-31.7613365, -71.3187697],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 27896.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_e89db15cc76f4b51bbb0b1a69f01bb86 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9a3f78c5a0d74eef84fae1a7b09b073c = $(`<div id="html_9a3f78c5a0d74eef84fae1a7b09b073c" style="width: 100.0%; height: 100.0%;">Country:<b>Chile</b> Cases:<b>418440</b></div>`)[0];
+                popup_e89db15cc76f4b51bbb0b1a69f01bb86.setContent(html_9a3f78c5a0d74eef84fae1a7b09b073c);
+            
+
+            circle_dd1fd37a54b749fd813df1cd2fe1644b.bindPopup(popup_e89db15cc76f4b51bbb0b1a69f01bb86)
+            ;
+
+            
+        
+    
+
+            var circle_809d39ffa4474ee5a33064a622a84210 = L.circle(
+                [4.099917, -72.9088133],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 16456.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_ac4254f03e054b38aa0f1ed3f911b2a4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ab66889c59344cb386e2058795fcc2fe = $(`<div id="html_ab66889c59344cb386e2058795fcc2fe" style="width: 100.0%; height: 100.0%;">Country:<b>Colombia</b> Cases:<b>246840</b></div>`)[0];
+                popup_ac4254f03e054b38aa0f1ed3f911b2a4.setContent(html_ab66889c59344cb386e2058795fcc2fe);
+            
+
+            circle_809d39ffa4474ee5a33064a622a84210.bindPopup(popup_ac4254f03e054b38aa0f1ed3f911b2a4)
+            ;
+
+            
+        
+    
+
+            var circle_029776906f3d4f4ab9539163d758bbb0 = L.circle(
+                [10.2735633, -84.0739102],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3444.8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_cb4e7635efb14c4f90b8bbd208c0545f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e7faa120ef3146f38a8a6d0364fedc52 = $(`<div id="html_e7faa120ef3146f38a8a6d0364fedc52" style="width: 100.0%; height: 100.0%;">Country:<b>Costa Rica</b> Cases:<b>51672</b></div>`)[0];
+                popup_cb4e7635efb14c4f90b8bbd208c0545f.setContent(html_e7faa120ef3146f38a8a6d0364fedc52);
+            
+
+            circle_029776906f3d4f4ab9539163d758bbb0.bindPopup(popup_cb4e7635efb14c4f90b8bbd208c0545f)
+            ;
+
+            
+        
+    
+
+            var circle_00e293edb83440dc882351878e3eda71 = L.circle(
+                [45.5643442, 17.0118954],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 21710.4,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_32c27dec009f4332b60a8851d0d265ee = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_12a7aeeb04c24eb88f640d0662d18d0f = $(`<div id="html_12a7aeeb04c24eb88f640d0662d18d0f" style="width: 100.0%; height: 100.0%;">Country:<b>Croatia</b> Cases:<b>325656</b></div>`)[0];
+                popup_32c27dec009f4332b60a8851d0d265ee.setContent(html_12a7aeeb04c24eb88f640d0662d18d0f);
+            
+
+            circle_00e293edb83440dc882351878e3eda71.bindPopup(popup_32c27dec009f4332b60a8851d0d265ee)
+            ;
+
+            
+        
+    
+
+            var circle_b0ee9a4f0e09438bbcf079094150452b = L.circle(
+                [12.1176488, -68.9309263],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1564.8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_f7596a71ea7947a584825085755057a7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c85a049679924958a5208e8791181a44 = $(`<div id="html_c85a049679924958a5208e8791181a44" style="width: 100.0%; height: 100.0%;">Country:<b>Curacao</b> Cases:<b>23472</b></div>`)[0];
+                popup_f7596a71ea7947a584825085755057a7.setContent(html_c85a049679924958a5208e8791181a44);
+            
+
+            circle_b0ee9a4f0e09438bbcf079094150452b.bindPopup(popup_f7596a71ea7947a584825085755057a7)
+            ;
+
+            
+        
+    
+
+            var circle_a27227f677d74cb69c076b23b19ac555 = L.circle(
+                [34.9823018, 33.1451285],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 944.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_74fd89de198644fcb23af101b6d2725a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ad72cfeaedea4cbfbec73110aac524b5 = $(`<div id="html_ad72cfeaedea4cbfbec73110aac524b5" style="width: 100.0%; height: 100.0%;">Country:<b>Cyprus</b> Cases:<b>14160</b></div>`)[0];
+                popup_74fd89de198644fcb23af101b6d2725a.setContent(html_ad72cfeaedea4cbfbec73110aac524b5);
+            
+
+            circle_a27227f677d74cb69c076b23b19ac555.bindPopup(popup_74fd89de198644fcb23af101b6d2725a)
+            ;
+
+            
+        
+    
+
+            var circle_4ef29da5c9ab40399a5521b2cc552e89 = L.circle(
+                [49.8167003, 15.4749544],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 32579.2,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_1827411d56b34ceea1ec49c3d903e5ee = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_78ef36c981634f97889a77a300ce5179 = $(`<div id="html_78ef36c981634f97889a77a300ce5179" style="width: 100.0%; height: 100.0%;">Country:<b>Czechia</b> Cases:<b>488688</b></div>`)[0];
+                popup_1827411d56b34ceea1ec49c3d903e5ee.setContent(html_78ef36c981634f97889a77a300ce5179);
+            
+
+            circle_4ef29da5c9ab40399a5521b2cc552e89.bindPopup(popup_1827411d56b34ceea1ec49c3d903e5ee)
+            ;
+
+            
+        
+    
+
+            var circle_02490955b9184e599392f7a99f508818 = L.circle(
+                [55.670249, 10.3333283],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 448592.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_adf468352ff140cd93f02329cf7a74eb = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9002ec21a70c40a29b69c06910e4b108 = $(`<div id="html_9002ec21a70c40a29b69c06910e4b108" style="width: 100.0%; height: 100.0%;">Country:<b>Denmark</b> Cases:<b>6728880</b></div>`)[0];
+                popup_adf468352ff140cd93f02329cf7a74eb.setContent(html_9002ec21a70c40a29b69c06910e4b108);
+            
+
+            circle_02490955b9184e599392f7a99f508818.bindPopup(popup_adf468352ff140cd93f02329cf7a74eb)
+            ;
+
+            
+        
+    
+
+            var circle_683c26e1eee44cf18bf811e2ff2e44dd = L.circle(
+                [11.8145966, 42.8453061],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 587.2,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_58c56f235632457e92eddc59b45d56fc = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_717764bb0a934db3b25bc99977cd4d93 = $(`<div id="html_717764bb0a934db3b25bc99977cd4d93" style="width: 100.0%; height: 100.0%;">Country:<b>Djibouti</b> Cases:<b>8808</b></div>`)[0];
+                popup_58c56f235632457e92eddc59b45d56fc.setContent(html_717764bb0a934db3b25bc99977cd4d93);
+            
+
+            circle_683c26e1eee44cf18bf811e2ff2e44dd.bindPopup(popup_58c56f235632457e92eddc59b45d56fc)
+            ;
+
+            
+        
+    
+
+            var circle_f80dde1063eb44e4bfd693620d77ef15 = L.circle(
+                [19.0974031, -70.3028026],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 904.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_f0671c7e60bb4f2b82039219d8b5b893 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_05fd0a216cfc4e68bfeeee7db30412bf = $(`<div id="html_05fd0a216cfc4e68bfeeee7db30412bf" style="width: 100.0%; height: 100.0%;">Country:<b>Dominican Republic</b> Cases:<b>13560</b></div>`)[0];
+                popup_f0671c7e60bb4f2b82039219d8b5b893.setContent(html_05fd0a216cfc4e68bfeeee7db30412bf);
+            
+
+            circle_f80dde1063eb44e4bfd693620d77ef15.bindPopup(popup_f0671c7e60bb4f2b82039219d8b5b893)
+            ;
+
+            
+        
+    
+
+            var circle_776be3fb789c4d649db682af7b2bc150 = L.circle(
+                [-1.3397668, -79.3666965],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5636.8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_f501a5bd0c234f96bf68841ca390f892 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_86590df78d0145648396f0d8d500f772 = $(`<div id="html_86590df78d0145648396f0d8d500f772" style="width: 100.0%; height: 100.0%;">Country:<b>Ecuador</b> Cases:<b>84552</b></div>`)[0];
+                popup_f501a5bd0c234f96bf68841ca390f892.setContent(html_86590df78d0145648396f0d8d500f772);
+            
+
+            circle_776be3fb789c4d649db682af7b2bc150.bindPopup(popup_f501a5bd0c234f96bf68841ca390f892)
+            ;
+
+            
+        
+    
+
+            var circle_581a332bdf794764b290ab9f29b80c3d = L.circle(
+                [26.2540493, 29.2675469],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2136.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_68911eeb24d745b695a6894d40e9f58b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_cf77f59bbd1544d687a37517c91e64ef = $(`<div id="html_cf77f59bbd1544d687a37517c91e64ef" style="width: 100.0%; height: 100.0%;">Country:<b>Egypt</b> Cases:<b>32040</b></div>`)[0];
+                popup_68911eeb24d745b695a6894d40e9f58b.setContent(html_cf77f59bbd1544d687a37517c91e64ef);
+            
+
+            circle_581a332bdf794764b290ab9f29b80c3d.bindPopup(popup_68911eeb24d745b695a6894d40e9f58b)
+            ;
+
+            
+        
+    
+
+            var circle_7ab3fa3ea2b946db80f22fbeaed8ca7a = L.circle(
+                [58.7523778, 25.3319078],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 12867.2,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_c30d1f1a71f64fec8549c8f2ea90ba85 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d7aa44bd47a34b718474d1485ab59c0e = $(`<div id="html_d7aa44bd47a34b718474d1485ab59c0e" style="width: 100.0%; height: 100.0%;">Country:<b>Estonia</b> Cases:<b>193008</b></div>`)[0];
+                popup_c30d1f1a71f64fec8549c8f2ea90ba85.setContent(html_d7aa44bd47a34b718474d1485ab59c0e);
+            
+
+            circle_7ab3fa3ea2b946db80f22fbeaed8ca7a.bindPopup(popup_c30d1f1a71f64fec8549c8f2ea90ba85)
+            ;
+
+            
+        
+    
+
+            var circle_97e10586930447c1a084c8cf158b769c = L.circle(
+                [10.2116702, 38.6521203],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 835.2,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_00767c7ae9cc42719e6c581b2cf7a3a3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_90a8842046044e38aa394ebf1e208934 = $(`<div id="html_90a8842046044e38aa394ebf1e208934" style="width: 100.0%; height: 100.0%;">Country:<b>Ethiopia</b> Cases:<b>12528</b></div>`)[0];
+                popup_00767c7ae9cc42719e6c581b2cf7a3a3.setContent(html_90a8842046044e38aa394ebf1e208934);
+            
+
+            circle_97e10586930447c1a084c8cf158b769c.bindPopup(popup_00767c7ae9cc42719e6c581b2cf7a3a3)
+            ;
+
+            
+        
+    
+
+            var circle_e3a32e73455248f7a147fe14b8a8006f = L.circle(
+                [-18.1239696, 179.0122737],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 840.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_ed8dbf9d73e44085bfb9908b7fe48302 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e1897d560f07487cab2776c1b75c18d8 = $(`<div id="html_e1897d560f07487cab2776c1b75c18d8" style="width: 100.0%; height: 100.0%;">Country:<b>Fiji</b> Cases:<b>12600</b></div>`)[0];
+                popup_ed8dbf9d73e44085bfb9908b7fe48302.setContent(html_e1897d560f07487cab2776c1b75c18d8);
+            
+
+            circle_e3a32e73455248f7a147fe14b8a8006f.bindPopup(popup_ed8dbf9d73e44085bfb9908b7fe48302)
+            ;
+
+            
+        
+    
+
+            var circle_f2480e1104be4defbd308228dd8f28b8 = L.circle(
+                [63.2467777, 25.9209164],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 35776.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_4601eaa668e6444f838d218d6e0d627a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a435c08b4dfc4b20bb61f4add17d8d52 = $(`<div id="html_a435c08b4dfc4b20bb61f4add17d8d52" style="width: 100.0%; height: 100.0%;">Country:<b>Finland</b> Cases:<b>536640</b></div>`)[0];
+                popup_4601eaa668e6444f838d218d6e0d627a.setContent(html_a435c08b4dfc4b20bb61f4add17d8d52);
+            
+
+            circle_f2480e1104be4defbd308228dd8f28b8.bindPopup(popup_4601eaa668e6444f838d218d6e0d627a)
+            ;
+
+            
+        
+    
+
+            var circle_a95bcbf58fcf49cbb991eb9e2f51efb4 = L.circle(
+                [46.603354, 1.8883335],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 240185.6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_5fbc4ccaf97346d38ce5939bd9869fb5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b7e0e3367b264c90b5ae60d45ae6b06c = $(`<div id="html_b7e0e3367b264c90b5ae60d45ae6b06c" style="width: 100.0%; height: 100.0%;">Country:<b>France</b> Cases:<b>3602784</b></div>`)[0];
+                popup_5fbc4ccaf97346d38ce5939bd9869fb5.setContent(html_b7e0e3367b264c90b5ae60d45ae6b06c);
+            
+
+            circle_a95bcbf58fcf49cbb991eb9e2f51efb4.bindPopup(popup_5fbc4ccaf97346d38ce5939bd9869fb5)
+            ;
+
+            
+        
+    
+
+            var circle_0cfe4447bbd245c09ac1e824d50cd073 = L.circle(
+                [13.470062, -15.4900464],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1380.8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_fb9de053142246b5ad32e39643b85477 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_858e01d608ad4e908e77aadf78d44b94 = $(`<div id="html_858e01d608ad4e908e77aadf78d44b94" style="width: 100.0%; height: 100.0%;">Country:<b>Gambia</b> Cases:<b>20712</b></div>`)[0];
+                popup_fb9de053142246b5ad32e39643b85477.setContent(html_858e01d608ad4e908e77aadf78d44b94);
+            
+
+            circle_0cfe4447bbd245c09ac1e824d50cd073.bindPopup(popup_fb9de053142246b5ad32e39643b85477)
+            ;
+
+            
+        
+    
+
+            var circle_6eb6e1c19fbc49b88f0c98d720147549 = L.circle(
+                [32.3293809, -83.1137366],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1344.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_8abcc3714f024f40bc2499678a8597e4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_75a026673cfc462b8a783bf987d3322f = $(`<div id="html_75a026673cfc462b8a783bf987d3322f" style="width: 100.0%; height: 100.0%;">Country:<b>Georgia</b> Cases:<b>20160</b></div>`)[0];
+                popup_8abcc3714f024f40bc2499678a8597e4.setContent(html_75a026673cfc462b8a783bf987d3322f);
+            
+
+            circle_6eb6e1c19fbc49b88f0c98d720147549.bindPopup(popup_8abcc3714f024f40bc2499678a8597e4)
+            ;
+
+            
+        
+    
+
+            var circle_96d296396eac491fa8c83520eb554f81 = L.circle(
+                [51.0834196, 10.4234469],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 523428.8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_224c071c6e9d4ef69b32bea4f7aaa60a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_29d98805dfc24f5b9f4594da3f86e1d2 = $(`<div id="html_29d98805dfc24f5b9f4594da3f86e1d2" style="width: 100.0%; height: 100.0%;">Country:<b>Germany</b> Cases:<b>7851432</b></div>`)[0];
+                popup_224c071c6e9d4ef69b32bea4f7aaa60a.setContent(html_29d98805dfc24f5b9f4594da3f86e1d2);
+            
+
+            circle_96d296396eac491fa8c83520eb554f81.bindPopup(popup_224c071c6e9d4ef69b32bea4f7aaa60a)
+            ;
+
+            
+        
+    
+
+            var circle_bd5572408fb5479a8564d71a0b9a5573 = L.circle(
+                [8.0300284, -1.0800271],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3748.8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_f2d2a94ab0c94de693571cb18f7e5e4f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b0f00ac32b6148ab82ff36eac545081d = $(`<div id="html_b0f00ac32b6148ab82ff36eac545081d" style="width: 100.0%; height: 100.0%;">Country:<b>Ghana</b> Cases:<b>56232</b></div>`)[0];
+                popup_f2d2a94ab0c94de693571cb18f7e5e4f.setContent(html_b0f00ac32b6148ab82ff36eac545081d);
+            
+
+            circle_bd5572408fb5479a8564d71a0b9a5573.bindPopup(popup_f2d2a94ab0c94de693571cb18f7e5e4f)
+            ;
+
+            
+        
+    
+
+            var circle_470472efe34c4c23bc43d7994b7a6cca = L.circle(
+                [38.9953683, 21.9877132],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 19526.4,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_3643252a9a2d427cbd783f0913486ade = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ba2abc9af62748c1acd110be00366142 = $(`<div id="html_ba2abc9af62748c1acd110be00366142" style="width: 100.0%; height: 100.0%;">Country:<b>Greece</b> Cases:<b>292896</b></div>`)[0];
+                popup_3643252a9a2d427cbd783f0913486ade.setContent(html_ba2abc9af62748c1acd110be00366142);
+            
+
+            circle_470472efe34c4c23bc43d7994b7a6cca.bindPopup(popup_3643252a9a2d427cbd783f0913486ade)
+            ;
+
+            
+        
+    
+
+            var circle_37f06c86a5f1428daddced44a9dd6171 = L.circle(
+                [15.687100699999998, -90.12265453178017],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2318.4,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_a9ef47cca0a245fb9517635e169fed89 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f7dafb4d2cf1420a91bc8ffbc540a606 = $(`<div id="html_f7dafb4d2cf1420a91bc8ffbc540a606" style="width: 100.0%; height: 100.0%;">Country:<b>Guatemala</b> Cases:<b>34776</b></div>`)[0];
+                popup_a9ef47cca0a245fb9517635e169fed89.setContent(html_f7dafb4d2cf1420a91bc8ffbc540a606);
+            
+
+            circle_37f06c86a5f1428daddced44a9dd6171.bindPopup(popup_a9ef47cca0a245fb9517635e169fed89)
+            ;
+
+            
+        
+    
+
+            var circle_8023529304e5486e91f8bd408e55c3ca = L.circle(
+                [22.2793278, 114.1628131],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4030.4,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_ee53ea2607d047f9bb22ec86774c3cfd = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_28360edcf0534cf49cbbd64938fe2621 = $(`<div id="html_28360edcf0534cf49cbbd64938fe2621" style="width: 100.0%; height: 100.0%;">Country:<b>Hong Kong</b> Cases:<b>60456</b></div>`)[0];
+                popup_ee53ea2607d047f9bb22ec86774c3cfd.setContent(html_28360edcf0534cf49cbbd64938fe2621);
+            
+
+            circle_8023529304e5486e91f8bd408e55c3ca.bindPopup(popup_ee53ea2607d047f9bb22ec86774c3cfd)
+            ;
+
+            
+        
+    
+
+            var circle_ae5396f088994927a39a1b6f6573697b = L.circle(
+                [47.1817585, 19.5060937],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 521.6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_fb646be8063348c689e67801dd4dc772 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_efe2c83303b8454cba93a90881996c3d = $(`<div id="html_efe2c83303b8454cba93a90881996c3d" style="width: 100.0%; height: 100.0%;">Country:<b>Hungary</b> Cases:<b>7824</b></div>`)[0];
+                popup_fb646be8063348c689e67801dd4dc772.setContent(html_efe2c83303b8454cba93a90881996c3d);
+            
+
+            circle_ae5396f088994927a39a1b6f6573697b.bindPopup(popup_fb646be8063348c689e67801dd4dc772)
+            ;
+
+            
+        
+    
+
+            var circle_54cc2df51a14430aa4c43ec50345bf85 = L.circle(
+                [64.9841821, -18.1059013],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 13238.4,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_30e29f7fd05940989db42f9dfc2d7dbd = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_dbafa42a033e4c1ca76fc7b0ef6d514c = $(`<div id="html_dbafa42a033e4c1ca76fc7b0ef6d514c" style="width: 100.0%; height: 100.0%;">Country:<b>Iceland</b> Cases:<b>198576</b></div>`)[0];
+                popup_30e29f7fd05940989db42f9dfc2d7dbd.setContent(html_dbafa42a033e4c1ca76fc7b0ef6d514c);
+            
+
+            circle_54cc2df51a14430aa4c43ec50345bf85.bindPopup(popup_30e29f7fd05940989db42f9dfc2d7dbd)
+            ;
+
+            
+        
+    
+
+            var circle_b31b6adc0506491a8be21f1ef571e463 = L.circle(
+                [22.3511148, 78.6677428],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 145644.8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_7155c99d0f8e4003b752b07ca7e2ac1d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b61785bc0a134a7fa04b9da0d200dca6 = $(`<div id="html_b61785bc0a134a7fa04b9da0d200dca6" style="width: 100.0%; height: 100.0%;">Country:<b>India</b> Cases:<b>2184672</b></div>`)[0];
+                popup_7155c99d0f8e4003b752b07ca7e2ac1d.setContent(html_b61785bc0a134a7fa04b9da0d200dca6);
+            
+
+            circle_b31b6adc0506491a8be21f1ef571e463.bindPopup(popup_7155c99d0f8e4003b752b07ca7e2ac1d)
+            ;
+
+            
+        
+    
+
+            var circle_2121c2664770400d885a5933b20c54e6 = L.circle(
+                [-2.4833826, 117.8902853],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 18257.6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_14b9adbf8a5c41eeaf96783b9aa2546b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_64bce498df634633bd07881ea9122649 = $(`<div id="html_64bce498df634633bd07881ea9122649" style="width: 100.0%; height: 100.0%;">Country:<b>Indonesia</b> Cases:<b>273864</b></div>`)[0];
+                popup_14b9adbf8a5c41eeaf96783b9aa2546b.setContent(html_64bce498df634633bd07881ea9122649);
+            
+
+            circle_2121c2664770400d885a5933b20c54e6.bindPopup(popup_14b9adbf8a5c41eeaf96783b9aa2546b)
+            ;
+
+            
+        
+    
+
+            var circle_c9031a3e5989409ca588e9b24803a2e2 = L.circle(
+                [32.6475314, 54.5643516],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 590.4,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_cd0fce041ccd4e09824aff869ccc11f2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_73a7ee4f3d3c4c549dfc14d3e298b924 = $(`<div id="html_73a7ee4f3d3c4c549dfc14d3e298b924" style="width: 100.0%; height: 100.0%;">Country:<b>Iran</b> Cases:<b>8856</b></div>`)[0];
+                popup_cd0fce041ccd4e09824aff869ccc11f2.setContent(html_73a7ee4f3d3c4c549dfc14d3e298b924);
+            
+
+            circle_c9031a3e5989409ca588e9b24803a2e2.bindPopup(popup_cd0fce041ccd4e09824aff869ccc11f2)
+            ;
+
+            
+        
+    
+
+            var circle_d8721d91c18e471393e4fbc8c4072851 = L.circle(
+                [33.0955793, 44.1749775],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 267.2,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_316dcf0fda4d4824b6dfd11632c683d9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c81943e642ba41b0832bdf23680115f5 = $(`<div id="html_c81943e642ba41b0832bdf23680115f5" style="width: 100.0%; height: 100.0%;">Country:<b>Iraq</b> Cases:<b>4008</b></div>`)[0];
+                popup_316dcf0fda4d4824b6dfd11632c683d9.setContent(html_c81943e642ba41b0832bdf23680115f5);
+            
+
+            circle_d8721d91c18e471393e4fbc8c4072851.bindPopup(popup_316dcf0fda4d4824b6dfd11632c683d9)
+            ;
+
+            
+        
+    
+
+            var circle_f8cc61171a0b472eb91538075a51a96e = L.circle(
+                [52.865196, -7.9794599],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 72684.8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_e5ac4620a1f74515b240fa80b4aa7ded = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6ab88b99109a414d960dbff9e010c1e3 = $(`<div id="html_6ab88b99109a414d960dbff9e010c1e3" style="width: 100.0%; height: 100.0%;">Country:<b>Ireland</b> Cases:<b>1090272</b></div>`)[0];
+                popup_e5ac4620a1f74515b240fa80b4aa7ded.setContent(html_6ab88b99109a414d960dbff9e010c1e3);
+            
+
+            circle_f8cc61171a0b472eb91538075a51a96e.bindPopup(popup_e5ac4620a1f74515b240fa80b4aa7ded)
+            ;
+
+            
+        
+    
+
+            var circle_f613cbf8b6a64c05abc3a4c0935e00df = L.circle(
+                [31.5313113, 34.8667654],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 57595.2,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_66703eee85824d269bbe4cadeafc36f8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c7d7e54d96bf4c5990690ed910f3f8cb = $(`<div id="html_c7d7e54d96bf4c5990690ed910f3f8cb" style="width: 100.0%; height: 100.0%;">Country:<b>Israel</b> Cases:<b>863928</b></div>`)[0];
+                popup_66703eee85824d269bbe4cadeafc36f8.setContent(html_c7d7e54d96bf4c5990690ed910f3f8cb);
+            
+
+            circle_f613cbf8b6a64c05abc3a4c0935e00df.bindPopup(popup_66703eee85824d269bbe4cadeafc36f8)
+            ;
+
+            
+        
+    
+
+            var circle_c30dd807866545bca24d46e40a71e2e7 = L.circle(
+                [42.6384261, 12.674297],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 127388.8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_05ddbbd6c7bd41ed8eea10ddc59776ea = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4e0da808c8874b738f7cb3a76ad3f300 = $(`<div id="html_4e0da808c8874b738f7cb3a76ad3f300" style="width: 100.0%; height: 100.0%;">Country:<b>Italy</b> Cases:<b>1910832</b></div>`)[0];
+                popup_05ddbbd6c7bd41ed8eea10ddc59776ea.setContent(html_4e0da808c8874b738f7cb3a76ad3f300);
+            
+
+            circle_c30dd807866545bca24d46e40a71e2e7.bindPopup(popup_05ddbbd6c7bd41ed8eea10ddc59776ea)
+            ;
+
+            
+        
+    
+
+            var circle_9dc53fa2d679439c805192bb4a7e3947 = L.circle(
+                [18.1850507, -77.3947693],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 585.6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_902b0874b4194094bfcd1eb3b9d1a1a4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5de078eadde946ed82ee7b927d4b263d = $(`<div id="html_5de078eadde946ed82ee7b927d4b263d" style="width: 100.0%; height: 100.0%;">Country:<b>Jamaica</b> Cases:<b>8784</b></div>`)[0];
+                popup_902b0874b4194094bfcd1eb3b9d1a1a4.setContent(html_5de078eadde946ed82ee7b927d4b263d);
+            
+
+            circle_9dc53fa2d679439c805192bb4a7e3947.bindPopup(popup_902b0874b4194094bfcd1eb3b9d1a1a4)
+            ;
+
+            
+        
+    
+
+            var circle_5533f0c658e94021a3d8f9f84ad7b8fc = L.circle(
+                [36.5748441, 139.2394179],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 284542.4,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_3c5a8cd80d93420d86b6f8919682720d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d4fca17b407d44f480cb3f1ebe441a7c = $(`<div id="html_d4fca17b407d44f480cb3f1ebe441a7c" style="width: 100.0%; height: 100.0%;">Country:<b>Japan</b> Cases:<b>4268136</b></div>`)[0];
+                popup_3c5a8cd80d93420d86b6f8919682720d.setContent(html_d4fca17b407d44f480cb3f1ebe441a7c);
+            
+
+            circle_5533f0c658e94021a3d8f9f84ad7b8fc.bindPopup(popup_3c5a8cd80d93420d86b6f8919682720d)
+            ;
+
+            
+        
+    
+
+            var circle_f6fb74fe007a48829710098f08e3a959 = L.circle(
+                [31.1667049, 36.941628],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1902.4,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_99f96a9071114a948654341d523f7ff5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9cbc556079cc425ba81cf251879cfb59 = $(`<div id="html_9cbc556079cc425ba81cf251879cfb59" style="width: 100.0%; height: 100.0%;">Country:<b>Jordan</b> Cases:<b>28536</b></div>`)[0];
+                popup_99f96a9071114a948654341d523f7ff5.setContent(html_9cbc556079cc425ba81cf251879cfb59);
+            
+
+            circle_f6fb74fe007a48829710098f08e3a959.bindPopup(popup_99f96a9071114a948654341d523f7ff5)
+            ;
+
+            
+        
+    
+
+            var circle_dde40a1ab75d4855835dabe09fec9285 = L.circle(
+                [47.2286086, 65.2093197],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 686.4,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_9de2347cf85941c48c85de50e14a97df = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_31830a1aab3544e6bf4162aeb68f3c85 = $(`<div id="html_31830a1aab3544e6bf4162aeb68f3c85" style="width: 100.0%; height: 100.0%;">Country:<b>Kazakhstan</b> Cases:<b>10296</b></div>`)[0];
+                popup_9de2347cf85941c48c85de50e14a97df.setContent(html_31830a1aab3544e6bf4162aeb68f3c85);
+            
+
+            circle_dde40a1ab75d4855835dabe09fec9285.bindPopup(popup_9de2347cf85941c48c85de50e14a97df)
+            ;
+
+            
+        
+    
+
+            var circle_668f5b230195466da315b83af8033cea = L.circle(
+                [1.4419683, 38.4313975],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8475.2,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_d9cfd2df660b485abe0c4eda47c64e68 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_878a31c3934b4943854c46674c35f1f4 = $(`<div id="html_878a31c3934b4943854c46674c35f1f4" style="width: 100.0%; height: 100.0%;">Country:<b>Kenya</b> Cases:<b>127128</b></div>`)[0];
+                popup_d9cfd2df660b485abe0c4eda47c64e68.setContent(html_878a31c3934b4943854c46674c35f1f4);
+            
+
+            circle_668f5b230195466da315b83af8033cea.bindPopup(popup_d9cfd2df660b485abe0c4eda47c64e68)
+            ;
+
+            
+        
+    
+
+            var circle_ecd4cdd229e541e99839a494cb140923 = L.circle(
+                [42.5869578, 20.9021231],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1584.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_9a06ba21f61646298a5e3c7a53583540 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9a53fcc249e742d79a7d6acce1902367 = $(`<div id="html_9a53fcc249e742d79a7d6acce1902367" style="width: 100.0%; height: 100.0%;">Country:<b>Kosovo</b> Cases:<b>23760</b></div>`)[0];
+                popup_9a06ba21f61646298a5e3c7a53583540.setContent(html_9a53fcc249e742d79a7d6acce1902367);
+            
+
+            circle_ecd4cdd229e541e99839a494cb140923.bindPopup(popup_9a06ba21f61646298a5e3c7a53583540)
+            ;
+
+            
+        
+    
+
+            var circle_ea6d40d5c9834416ae7d92801052e535 = L.circle(
+                [29.2733964, 47.4979476],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 524.8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_cd5b1090060849448a3ac1639e3d9ab5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f523f2a815bd4044a66597c3d7bbdc32 = $(`<div id="html_f523f2a815bd4044a66597c3d7bbdc32" style="width: 100.0%; height: 100.0%;">Country:<b>Kuwait</b> Cases:<b>7872</b></div>`)[0];
+                popup_cd5b1090060849448a3ac1639e3d9ab5.setContent(html_f523f2a815bd4044a66597c3d7bbdc32);
+            
+
+            circle_ea6d40d5c9834416ae7d92801052e535.bindPopup(popup_cd5b1090060849448a3ac1639e3d9ab5)
+            ;
+
+            
+        
+    
+
+            var circle_0dcbcb0af98d4438b2fb019d5339a1c7 = L.circle(
+                [56.8406494, 24.7537645],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10064.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_e60a552efa26432aadf5172341dab671 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5d04be00bc34435387f238eb30489fd6 = $(`<div id="html_5d04be00bc34435387f238eb30489fd6" style="width: 100.0%; height: 100.0%;">Country:<b>Latvia</b> Cases:<b>150960</b></div>`)[0];
+                popup_e60a552efa26432aadf5172341dab671.setContent(html_5d04be00bc34435387f238eb30489fd6);
+            
+
+            circle_0dcbcb0af98d4438b2fb019d5339a1c7.bindPopup(popup_e60a552efa26432aadf5172341dab671)
+            ;
+
+            
+        
+    
+
+            var circle_abdb8d5631cf4cac8a71bfbbb3b4db91 = L.circle(
+                [33.8750629, 35.843409],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1614.4,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_2faf1958f2ec4f7287ef5538e622d2f1 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6f994a6727be4fc99ccf296cc84052a8 = $(`<div id="html_6f994a6727be4fc99ccf296cc84052a8" style="width: 100.0%; height: 100.0%;">Country:<b>Lebanon</b> Cases:<b>24216</b></div>`)[0];
+                popup_2faf1958f2ec4f7287ef5538e622d2f1.setContent(html_6f994a6727be4fc99ccf296cc84052a8);
+            
+
+            circle_abdb8d5631cf4cac8a71bfbbb3b4db91.bindPopup(popup_2faf1958f2ec4f7287ef5538e622d2f1)
+            ;
+
+            
+        
+    
+
+            var circle_ac693c85cb02423395b9c78528d9ab3a = L.circle(
+                [47.1416307, 9.5531527],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 737.6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_0031e08a314947c69046cfedcb551b38 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_627c26a97fe14274a763688f1ee6f5aa = $(`<div id="html_627c26a97fe14274a763688f1ee6f5aa" style="width: 100.0%; height: 100.0%;">Country:<b>Liechtenstein</b> Cases:<b>11064</b></div>`)[0];
+                popup_0031e08a314947c69046cfedcb551b38.setContent(html_627c26a97fe14274a763688f1ee6f5aa);
+            
+
+            circle_ac693c85cb02423395b9c78528d9ab3a.bindPopup(popup_0031e08a314947c69046cfedcb551b38)
+            ;
+
+            
+        
+    
+
+            var circle_f2f65c123b6349e680ec503d26ff96c1 = L.circle(
+                [55.3500003, 23.7499997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 40612.8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_88823ef3807b4d0190ed2205eed07a95 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_347e31ec0a7c4ed2b4b320fe960e18da = $(`<div id="html_347e31ec0a7c4ed2b4b320fe960e18da" style="width: 100.0%; height: 100.0%;">Country:<b>Lithuania</b> Cases:<b>609192</b></div>`)[0];
+                popup_88823ef3807b4d0190ed2205eed07a95.setContent(html_347e31ec0a7c4ed2b4b320fe960e18da);
+            
+
+            circle_f2f65c123b6349e680ec503d26ff96c1.bindPopup(popup_88823ef3807b4d0190ed2205eed07a95)
+            ;
+
+            
+        
+    
+
+            var circle_8d476fe290784ac3804060f2c2400e19 = L.circle(
+                [49.8158683, 6.1296751],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 30350.4,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_2e9a9066d1a74fc3b78c2d2ac63f10e5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_cb1a7ced965a4ca7890e1df5ddd10692 = $(`<div id="html_cb1a7ced965a4ca7890e1df5ddd10692" style="width: 100.0%; height: 100.0%;">Country:<b>Luxembourg</b> Cases:<b>455256</b></div>`)[0];
+                popup_2e9a9066d1a74fc3b78c2d2ac63f10e5.setContent(html_cb1a7ced965a4ca7890e1df5ddd10692);
+            
+
+            circle_8d476fe290784ac3804060f2c2400e19.bindPopup(popup_2e9a9066d1a74fc3b78c2d2ac63f10e5)
+            ;
+
+            
+        
+    
+
+            var circle_4b64630054724bb09500d76708f88104 = L.circle(
+                [-18.9249604, 46.4416422],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1235.2,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_a43a8dc2693845cbbd90ee961f6b65d3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f88be38ca9234874997f545dec978428 = $(`<div id="html_f88be38ca9234874997f545dec978428" style="width: 100.0%; height: 100.0%;">Country:<b>Madagascar</b> Cases:<b>18528</b></div>`)[0];
+                popup_a43a8dc2693845cbbd90ee961f6b65d3.setContent(html_f88be38ca9234874997f545dec978428);
+            
+
+            circle_4b64630054724bb09500d76708f88104.bindPopup(popup_a43a8dc2693845cbbd90ee961f6b65d3)
+            ;
+
+            
+        
+    
+
+            var circle_ae5df118e0da420d9dd709285abbcaca = L.circle(
+                [-13.2687204, 33.9301963],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1297.6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_f80d923bdc3e47c9b5721051ffcf9cca = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_568e2e336b8542bc844dd5496f2c9830 = $(`<div id="html_568e2e336b8542bc844dd5496f2c9830" style="width: 100.0%; height: 100.0%;">Country:<b>Malawi</b> Cases:<b>19464</b></div>`)[0];
+                popup_f80d923bdc3e47c9b5721051ffcf9cca.setContent(html_568e2e336b8542bc844dd5496f2c9830);
+            
+
+            circle_ae5df118e0da420d9dd709285abbcaca.bindPopup(popup_f80d923bdc3e47c9b5721051ffcf9cca)
+            ;
+
+            
+        
+    
+
+            var circle_5f9312fc6f1d4aec814c8cd5f1bd3d6d = L.circle(
+                [4.5693754, 102.2656823],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11587.2,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_05c0969fff4544aeaf0c982b71cea1d1 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_99fae3ad3df241b9a27195295f8c51f9 = $(`<div id="html_99fae3ad3df241b9a27195295f8c51f9" style="width: 100.0%; height: 100.0%;">Country:<b>Malaysia</b> Cases:<b>173808</b></div>`)[0];
+                popup_05c0969fff4544aeaf0c982b71cea1d1.setContent(html_99fae3ad3df241b9a27195295f8c51f9);
+            
+
+            circle_5f9312fc6f1d4aec814c8cd5f1bd3d6d.bindPopup(popup_05c0969fff4544aeaf0c982b71cea1d1)
+            ;
+
+            
+        
+    
+
+            var circle_e5bd5c3585cd4805a78c6e598673b883 = L.circle(
+                [4.7064352, 73.3287853],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1384.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_86a9793791d6403689c86554db70e3db = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_21fd8a8536484130a090717f2ac9680e = $(`<div id="html_21fd8a8536484130a090717f2ac9680e" style="width: 100.0%; height: 100.0%;">Country:<b>Maldives</b> Cases:<b>20760</b></div>`)[0];
+                popup_86a9793791d6403689c86554db70e3db.setContent(html_21fd8a8536484130a090717f2ac9680e);
+            
+
+            circle_e5bd5c3585cd4805a78c6e598673b883.bindPopup(popup_86a9793791d6403689c86554db70e3db)
+            ;
+
+            
+        
+    
+
+            var circle_f56d7f06ce0f4e3d95b5c253a48874ef = L.circle(
+                [35.8885993, 14.4476911],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 964.8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_b4c06b949e6243c19e0d6a0ce807a040 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_db3e5ed806504559956f3249b539e6e9 = $(`<div id="html_db3e5ed806504559956f3249b539e6e9" style="width: 100.0%; height: 100.0%;">Country:<b>Malta</b> Cases:<b>14472</b></div>`)[0];
+                popup_b4c06b949e6243c19e0d6a0ce807a040.setContent(html_db3e5ed806504559956f3249b539e6e9);
+            
+
+            circle_f56d7f06ce0f4e3d95b5c253a48874ef.bindPopup(popup_b4c06b949e6243c19e0d6a0ce807a040)
+            ;
+
+            
+        
+    
+
+            var circle_bb4f08f782c14af497bb6473180e9f4c = L.circle(
+                [-20.2759451, 57.5703566],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 748.8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_b01ace5a3dbe443182b3f25753091de2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2befef42f76f4ea69302bc258abb07ee = $(`<div id="html_2befef42f76f4ea69302bc258abb07ee" style="width: 100.0%; height: 100.0%;">Country:<b>Mauritius</b> Cases:<b>11232</b></div>`)[0];
+                popup_b01ace5a3dbe443182b3f25753091de2.setContent(html_2befef42f76f4ea69302bc258abb07ee);
+            
+
+            circle_bb4f08f782c14af497bb6473180e9f4c.bindPopup(popup_b01ace5a3dbe443182b3f25753091de2)
+            ;
+
+            
+        
+    
+
+            var circle_9c946bb3e0644b9eba2769d5df0df5ba = L.circle(
+                [23.6585116, -102.0077097],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 68532.8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_bf76ed453a704a31a6a3617d40dcf509 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b3927475350748afb19e45ae13aadbf3 = $(`<div id="html_b3927475350748afb19e45ae13aadbf3" style="width: 100.0%; height: 100.0%;">Country:<b>Mexico</b> Cases:<b>1027992</b></div>`)[0];
+                popup_bf76ed453a704a31a6a3617d40dcf509.setContent(html_b3927475350748afb19e45ae13aadbf3);
+            
+
+            circle_9c946bb3e0644b9eba2769d5df0df5ba.bindPopup(popup_bf76ed453a704a31a6a3617d40dcf509)
+            ;
+
+            
+        
+    
+
+            var circle_2578f06e34444677b89ae4862f7db495 = L.circle(
+                [47.2879608, 28.5670941],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 243.2,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_af332ebd981c49b1bb016033603a198f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c1e7c0a48bff435ab69f9f1a65ed782b = $(`<div id="html_c1e7c0a48bff435ab69f9f1a65ed782b" style="width: 100.0%; height: 100.0%;">Country:<b>Moldova</b> Cases:<b>3648</b></div>`)[0];
+                popup_af332ebd981c49b1bb016033603a198f.setContent(html_c1e7c0a48bff435ab69f9f1a65ed782b);
+            
+
+            circle_2578f06e34444677b89ae4862f7db495.bindPopup(popup_af332ebd981c49b1bb016033603a198f)
+            ;
+
+            
+        
+    
+
+            var circle_879510108e234c4dbbd8a5f7fcf97c7e = L.circle(
+                [43.73844905, 7.424224092532953],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 134.4,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_c0ebae63ab3f4abfbff486c308386398 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c68d929bd431403eba1593da9c3d47f4 = $(`<div id="html_c68d929bd431403eba1593da9c3d47f4" style="width: 100.0%; height: 100.0%;">Country:<b>Monaco</b> Cases:<b>2016</b></div>`)[0];
+                popup_c0ebae63ab3f4abfbff486c308386398.setContent(html_c68d929bd431403eba1593da9c3d47f4);
+            
+
+            circle_879510108e234c4dbbd8a5f7fcf97c7e.bindPopup(popup_c0ebae63ab3f4abfbff486c308386398)
+            ;
+
+            
+        
+    
+
+            var circle_07c080914b7b4a0a8c0a0c39ad747292 = L.circle(
+                [46.8250388, 103.8499736],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 240.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_772e5c48653e464db9ebca2c890b61da = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d549f75732b6403ab3130b7cedfbf9ac = $(`<div id="html_d549f75732b6403ab3130b7cedfbf9ac" style="width: 100.0%; height: 100.0%;">Country:<b>Mongolia</b> Cases:<b>3600</b></div>`)[0];
+                popup_772e5c48653e464db9ebca2c890b61da.setContent(html_d549f75732b6403ab3130b7cedfbf9ac);
+            
+
+            circle_07c080914b7b4a0a8c0a0c39ad747292.bindPopup(popup_772e5c48653e464db9ebca2c890b61da)
+            ;
+
+            
+        
+    
+
+            var circle_5ede90b4d1f544989a1a7c65b453788a = L.circle(
+                [42.9868853, 19.5180992],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 715.2,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_90f3e7ad9aa849d58d49c0598011f6e5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_40d4eefc82f744878cb66fc634b55771 = $(`<div id="html_40d4eefc82f744878cb66fc634b55771" style="width: 100.0%; height: 100.0%;">Country:<b>Montenegro</b> Cases:<b>10728</b></div>`)[0];
+                popup_90f3e7ad9aa849d58d49c0598011f6e5.setContent(html_40d4eefc82f744878cb66fc634b55771);
+            
+
+            circle_5ede90b4d1f544989a1a7c65b453788a.bindPopup(popup_90f3e7ad9aa849d58d49c0598011f6e5)
+            ;
+
+            
+        
+    
+
+            var circle_7d6fbabfe5584b60bed2c29f34d59b41 = L.circle(
+                [31.1728205, -7.3362482],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 640.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_998ad87a8b28401d95c9643a0b6843a2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0562c915bbd94f5996f535e03efc55cd = $(`<div id="html_0562c915bbd94f5996f535e03efc55cd" style="width: 100.0%; height: 100.0%;">Country:<b>Morocco</b> Cases:<b>9600</b></div>`)[0];
+                popup_998ad87a8b28401d95c9643a0b6843a2.setContent(html_0562c915bbd94f5996f535e03efc55cd);
+            
+
+            circle_7d6fbabfe5584b60bed2c29f34d59b41.bindPopup(popup_998ad87a8b28401d95c9643a0b6843a2)
+            ;
+
+            
+        
+    
+
+            var circle_26de1554b7c74160826712d2063929a2 = L.circle(
+                [-19.302233, 34.9144977],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1483.2,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_1ff3ad9b86b24082a53c3bcc917fb14a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c045de8357bf4aeb9b796ccd7ed9474b = $(`<div id="html_c045de8357bf4aeb9b796ccd7ed9474b" style="width: 100.0%; height: 100.0%;">Country:<b>Mozambique</b> Cases:<b>22248</b></div>`)[0];
+                popup_1ff3ad9b86b24082a53c3bcc917fb14a.setContent(html_c045de8357bf4aeb9b796ccd7ed9474b);
+            
+
+            circle_26de1554b7c74160826712d2063929a2.bindPopup(popup_1ff3ad9b86b24082a53c3bcc917fb14a)
+            ;
+
+            
+        
+    
+
+            var circle_f031c634dce2470d86e6b430a331b6e5 = L.circle(
+                [28.1083929, 84.0917139],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 588.8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_d2e7ab229ae74403a4e7d55116b396a7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_abf5d197728e467e8f2203f5678319c4 = $(`<div id="html_abf5d197728e467e8f2203f5678319c4" style="width: 100.0%; height: 100.0%;">Country:<b>Nepal</b> Cases:<b>8832</b></div>`)[0];
+                popup_d2e7ab229ae74403a4e7d55116b396a7.setContent(html_abf5d197728e467e8f2203f5678319c4);
+            
+
+            circle_f031c634dce2470d86e6b430a331b6e5.bindPopup(popup_d2e7ab229ae74403a4e7d55116b396a7)
+            ;
+
+            
+        
+    
+
+            var circle_d03f503959084b0f8ac55089e61680b3 = L.circle(
+                [52.15517, 5.38721],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 132395.2,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_36661ba65366443d89306a2c108b2bcf = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_89d6a1ba098f462cae915ac52b29e9ca = $(`<div id="html_89d6a1ba098f462cae915ac52b29e9ca" style="width: 100.0%; height: 100.0%;">Country:<b>Netherlands</b> Cases:<b>1985928</b></div>`)[0];
+                popup_36661ba65366443d89306a2c108b2bcf.setContent(html_89d6a1ba098f462cae915ac52b29e9ca);
+            
+
+            circle_d03f503959084b0f8ac55089e61680b3.bindPopup(popup_36661ba65366443d89306a2c108b2bcf)
+            ;
+
+            
+        
+    
+
+            var circle_c62a6de89e8a494f92dde74f50e98ff2 = L.circle(
+                [-41.5000831, 172.8344077],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7614.4,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_3f58479077ba496791f9152dd6544822 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9ea9addbe1d7466cbc586767c12e12af = $(`<div id="html_9ea9addbe1d7466cbc586767c12e12af" style="width: 100.0%; height: 100.0%;">Country:<b>New Zealand</b> Cases:<b>114216</b></div>`)[0];
+                popup_3f58479077ba496791f9152dd6544822.setContent(html_9ea9addbe1d7466cbc586767c12e12af);
+            
+
+            circle_c62a6de89e8a494f92dde74f50e98ff2.bindPopup(popup_3f58479077ba496791f9152dd6544822)
+            ;
+
+            
+        
+    
+
+            var circle_f183bbadd0e44241af835d353fca7026 = L.circle(
+                [9.6000359, 7.9999721],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5878.4,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_67b0e96fe2c040d08c80da8c2ef71a1f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2b6aed9b913d495abb615cd6a8c6d0c8 = $(`<div id="html_2b6aed9b913d495abb615cd6a8c6d0c8" style="width: 100.0%; height: 100.0%;">Country:<b>Nigeria</b> Cases:<b>88176</b></div>`)[0];
+                popup_67b0e96fe2c040d08c80da8c2ef71a1f.setContent(html_2b6aed9b913d495abb615cd6a8c6d0c8);
+            
+
+            circle_f183bbadd0e44241af835d353fca7026.bindPopup(popup_67b0e96fe2c040d08c80da8c2ef71a1f)
+            ;
+
+            
+        
+    
+
+            var circle_79c673492de64857b58014abd0f248ac = L.circle(
+                [41.6171214, 21.7168387],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1180.8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_82cde53e5616426ca166a6ae843b11d7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d5ab3ad5543247bb96501a3e33803a32 = $(`<div id="html_d5ab3ad5543247bb96501a3e33803a32" style="width: 100.0%; height: 100.0%;">Country:<b>North Macedonia</b> Cases:<b>17712</b></div>`)[0];
+                popup_82cde53e5616426ca166a6ae843b11d7.setContent(html_d5ab3ad5543247bb96501a3e33803a32);
+            
+
+            circle_79c673492de64857b58014abd0f248ac.bindPopup(popup_82cde53e5616426ca166a6ae843b11d7)
+            ;
+
+            
+        
+    
+
+            var circle_b29b9cd18fdd4049bd5f166b991c3683 = L.circle(
+                [60.5000209, 9.0999715],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 60252.8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_37040cc0b0af403db9f862c4ceaf7498 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ad9b5b1bb7594b3ea720ae679a93dd7c = $(`<div id="html_ad9b5b1bb7594b3ea720ae679a93dd7c" style="width: 100.0%; height: 100.0%;">Country:<b>Norway</b> Cases:<b>903792</b></div>`)[0];
+                popup_37040cc0b0af403db9f862c4ceaf7498.setContent(html_ad9b5b1bb7594b3ea720ae679a93dd7c);
+            
+
+            circle_b29b9cd18fdd4049bd5f166b991c3683.bindPopup(popup_37040cc0b0af403db9f862c4ceaf7498)
+            ;
+
+            
+        
+    
+
+            var circle_92460e1d8aeb49859b1ac1907276ba40 = L.circle(
+                [21.0000287, 57.0036901],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 713.6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_38e0a301041045aeaf8db509aefbb9a6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_7fbfa912eafc4ee1abdd3a5be1309caa = $(`<div id="html_7fbfa912eafc4ee1abdd3a5be1309caa" style="width: 100.0%; height: 100.0%;">Country:<b>Oman</b> Cases:<b>10704</b></div>`)[0];
+                popup_38e0a301041045aeaf8db509aefbb9a6.setContent(html_7fbfa912eafc4ee1abdd3a5be1309caa);
+            
+
+            circle_92460e1d8aeb49859b1ac1907276ba40.bindPopup(popup_38e0a301041045aeaf8db509aefbb9a6)
+            ;
+
+            
+        
+    
+
+            var circle_a9ac1c1679be46319bd6dc0e24656a58 = L.circle(
+                [30.3308401, 71.247499],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2515.2,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_027bfd8dee9b49e099ebd1f92521af8f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_47a79217b2a74ac895371de2c03c2eec = $(`<div id="html_47a79217b2a74ac895371de2c03c2eec" style="width: 100.0%; height: 100.0%;">Country:<b>Pakistan</b> Cases:<b>37728</b></div>`)[0];
+                popup_027bfd8dee9b49e099ebd1f92521af8f.setContent(html_47a79217b2a74ac895371de2c03c2eec);
+            
+
+            circle_a9ac1c1679be46319bd6dc0e24656a58.bindPopup(popup_027bfd8dee9b49e099ebd1f92521af8f)
+            ;
+
+            
+        
+    
+
+            var circle_700a9e08d9cb45e29e46b19011a6eba0 = L.circle(
+                [-5.6816069, 144.2489081],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5385.6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_3ed54832230e43f4aa0bc7155441dd58 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1c7d60e48caa409cbd77bb20f0c0bdf8 = $(`<div id="html_1c7d60e48caa409cbd77bb20f0c0bdf8" style="width: 100.0%; height: 100.0%;">Country:<b>Papua New Guinea</b> Cases:<b>80784</b></div>`)[0];
+                popup_3ed54832230e43f4aa0bc7155441dd58.setContent(html_1c7d60e48caa409cbd77bb20f0c0bdf8);
+            
+
+            circle_700a9e08d9cb45e29e46b19011a6eba0.bindPopup(popup_3ed54832230e43f4aa0bc7155441dd58)
+            ;
+
+            
+        
+    
+
+            var circle_f710046e9edf40ee8c68d955191c094d = L.circle(
+                [-23.3165935, -58.1693445],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1406.4,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_b176e08e8c8a48bab62ed32389a57a6a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_7ff2fba020614e5fa615bb3ae515851a = $(`<div id="html_7ff2fba020614e5fa615bb3ae515851a" style="width: 100.0%; height: 100.0%;">Country:<b>Paraguay</b> Cases:<b>21096</b></div>`)[0];
+                popup_b176e08e8c8a48bab62ed32389a57a6a.setContent(html_7ff2fba020614e5fa615bb3ae515851a);
+            
+
+            circle_f710046e9edf40ee8c68d955191c094d.bindPopup(popup_b176e08e8c8a48bab62ed32389a57a6a)
+            ;
+
+            
+        
+    
+
+            var circle_ace7bfa0c3864a4e9f4b7ea9d412c335 = L.circle(
+                [-6.8699697, -75.0458515],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 19536.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_d34a27c9a51e4eeb88da818804bcf949 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d0f8a4e5bd9e46efb3f18d32b13d7499 = $(`<div id="html_d0f8a4e5bd9e46efb3f18d32b13d7499" style="width: 100.0%; height: 100.0%;">Country:<b>Peru</b> Cases:<b>293040</b></div>`)[0];
+                popup_d34a27c9a51e4eeb88da818804bcf949.setContent(html_d0f8a4e5bd9e46efb3f18d32b13d7499);
+            
+
+            circle_ace7bfa0c3864a4e9f4b7ea9d412c335.bindPopup(popup_d34a27c9a51e4eeb88da818804bcf949)
+            ;
+
+            
+        
+    
+
+            var circle_7d9f44fd45f743b8947ed392d260f7d1 = L.circle(
+                [12.7503486, 122.7312101],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 20380.8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_0b190bd1c67345b081e1e613ed1f4884 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_614e4bc2a51d4166b58e614e94d444a4 = $(`<div id="html_614e4bc2a51d4166b58e614e94d444a4" style="width: 100.0%; height: 100.0%;">Country:<b>Philippines</b> Cases:<b>305712</b></div>`)[0];
+                popup_0b190bd1c67345b081e1e613ed1f4884.setContent(html_614e4bc2a51d4166b58e614e94d444a4);
+            
+
+            circle_7d9f44fd45f743b8947ed392d260f7d1.bindPopup(popup_0b190bd1c67345b081e1e613ed1f4884)
+            ;
+
+            
+        
+    
+
+            var circle_1aaa7ef3eee94321bd1fd1a628b7052a = L.circle(
+                [52.215933, 19.134422],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 63014.4,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_57c6d7e11c2848e2ac673a353209485a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_93306a6f7149493ba39dced30f948de0 = $(`<div id="html_93306a6f7149493ba39dced30f948de0" style="width: 100.0%; height: 100.0%;">Country:<b>Poland</b> Cases:<b>945216</b></div>`)[0];
+                popup_57c6d7e11c2848e2ac673a353209485a.setContent(html_93306a6f7149493ba39dced30f948de0);
+            
+
+            circle_1aaa7ef3eee94321bd1fd1a628b7052a.bindPopup(popup_57c6d7e11c2848e2ac673a353209485a)
+            ;
+
+            
+        
+    
+
+            var circle_a1ec27ca686f42fc963784ba3d685595 = L.circle(
+                [40.0332629, -7.8896263],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 36627.2,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_0fd85a3ee140495881f4a2644c1432d0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e03d94353a1b49e68beab49094860bf0 = $(`<div id="html_e03d94353a1b49e68beab49094860bf0" style="width: 100.0%; height: 100.0%;">Country:<b>Portugal</b> Cases:<b>549408</b></div>`)[0];
+                popup_0fd85a3ee140495881f4a2644c1432d0.setContent(html_e03d94353a1b49e68beab49094860bf0);
+            
+
+            circle_a1ec27ca686f42fc963784ba3d685595.bindPopup(popup_0fd85a3ee140495881f4a2644c1432d0)
+            ;
+
+            
+        
+    
+
+            var circle_506326cf72a4418ab93c8bed12468a82 = L.circle(
+                [25.3336984, 51.2295295],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6475.2,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_012eca16119d454a86a04b64852df815 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6e10df8f38344dc98fc60a3ca396dd70 = $(`<div id="html_6e10df8f38344dc98fc60a3ca396dd70" style="width: 100.0%; height: 100.0%;">Country:<b>Qatar</b> Cases:<b>97128</b></div>`)[0];
+                popup_012eca16119d454a86a04b64852df815.setContent(html_6e10df8f38344dc98fc60a3ca396dd70);
+            
+
+            circle_506326cf72a4418ab93c8bed12468a82.bindPopup(popup_012eca16119d454a86a04b64852df815)
+            ;
+
+            
+        
+    
+
+            var circle_5d495a995a994e42a97deef0d59d4ef4 = L.circle(
+                [45.9852129, 24.6859225],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 13705.6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_f1f62b3437d54381a909024d4e7bfff0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3b543ecfe7cc4d81b26b620e740d41dc = $(`<div id="html_3b543ecfe7cc4d81b26b620e740d41dc" style="width: 100.0%; height: 100.0%;">Country:<b>Romania</b> Cases:<b>205584</b></div>`)[0];
+                popup_f1f62b3437d54381a909024d4e7bfff0.setContent(html_3b543ecfe7cc4d81b26b620e740d41dc);
+            
+
+            circle_5d495a995a994e42a97deef0d59d4ef4.bindPopup(popup_f1f62b3437d54381a909024d4e7bfff0)
+            ;
+
+            
+        
+    
+
+            var circle_dd30671e99774103864f26db496b326a = L.circle(
+                [64.6863136, 97.7453061],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 18462.4,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_a75d71da4b274fba909190f9552fd230 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c41d7b09f6db4668abbf79bb3d951522 = $(`<div id="html_c41d7b09f6db4668abbf79bb3d951522" style="width: 100.0%; height: 100.0%;">Country:<b>Russia</b> Cases:<b>276936</b></div>`)[0];
+                popup_a75d71da4b274fba909190f9552fd230.setContent(html_c41d7b09f6db4668abbf79bb3d951522);
+            
+
+            circle_dd30671e99774103864f26db496b326a.bindPopup(popup_a75d71da4b274fba909190f9552fd230)
+            ;
+
+            
+        
+    
+
+            var circle_760ae90210b94f9ca1c4ca7b6a806e50 = L.circle(
+                [-1.9646631, 30.0644358],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1102.4,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_42b35215a1544ce989506be146a92806 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_fcc89c5ab6ef4e048a6a804b85fc5e1a = $(`<div id="html_fcc89c5ab6ef4e048a6a804b85fc5e1a" style="width: 100.0%; height: 100.0%;">Country:<b>Rwanda</b> Cases:<b>16536</b></div>`)[0];
+                popup_42b35215a1544ce989506be146a92806.setContent(html_fcc89c5ab6ef4e048a6a804b85fc5e1a);
+            
+
+            circle_760ae90210b94f9ca1c4ca7b6a806e50.bindPopup(popup_42b35215a1544ce989506be146a92806)
+            ;
+
+            
+        
+    
+
+            var circle_1c4335f374c94f42b5387533a39a07c2 = L.circle(
+                [14.4750607, -14.4529612],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1112.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_f125e2843dc543c68a3edcbeb6c5f91b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f8c489d9e7c84b52b01919bf2bb4e048 = $(`<div id="html_f8c489d9e7c84b52b01919bf2bb4e048" style="width: 100.0%; height: 100.0%;">Country:<b>Senegal</b> Cases:<b>16680</b></div>`)[0];
+                popup_f125e2843dc543c68a3edcbeb6c5f91b.setContent(html_f8c489d9e7c84b52b01919bf2bb4e048);
+            
+
+            circle_1c4335f374c94f42b5387533a39a07c2.bindPopup(popup_f125e2843dc543c68a3edcbeb6c5f91b)
+            ;
+
+            
+        
+    
+
+            var circle_c8af7bc1bbf149b4850b099172ccd1fc = L.circle(
+                [44.1534121, 20.55144],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 763.2,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_36e04c270ea449819eb1c2d68d68d0e9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_54393e90bf01442a98fbb80399fc409a = $(`<div id="html_54393e90bf01442a98fbb80399fc409a" style="width: 100.0%; height: 100.0%;">Country:<b>Serbia</b> Cases:<b>11448</b></div>`)[0];
+                popup_36e04c270ea449819eb1c2d68d68d0e9.setContent(html_54393e90bf01442a98fbb80399fc409a);
+            
+
+            circle_c8af7bc1bbf149b4850b099172ccd1fc.bindPopup(popup_36e04c270ea449819eb1c2d68d68d0e9)
+            ;
+
+            
+        
+    
+
+            var circle_15fe64e749c847d688c49ddaa3f39fe0 = L.circle(
+                [-4.6574977, 55.4540146],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 868.8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_b2a6ecb2f77d4a4ab1bba202507743d3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c52d1955853e4c46a7085e90f77105bd = $(`<div id="html_c52d1955853e4c46a7085e90f77105bd" style="width: 100.0%; height: 100.0%;">Country:<b>Seychelles</b> Cases:<b>13032</b></div>`)[0];
+                popup_b2a6ecb2f77d4a4ab1bba202507743d3.setContent(html_c52d1955853e4c46a7085e90f77105bd);
+            
+
+            circle_15fe64e749c847d688c49ddaa3f39fe0.bindPopup(popup_b2a6ecb2f77d4a4ab1bba202507743d3)
+            ;
+
+            
+        
+    
+
+            var circle_881aa4b59db74087a4ca65c7ab22a5b5 = L.circle(
+                [1.357107, 103.8194992],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 16516.8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_7eb8948336bf4f49ac9c35852c1ba404 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3351f9afaef740c385630c13a08570d9 = $(`<div id="html_3351f9afaef740c385630c13a08570d9" style="width: 100.0%; height: 100.0%;">Country:<b>Singapore</b> Cases:<b>247752</b></div>`)[0];
+                popup_7eb8948336bf4f49ac9c35852c1ba404.setContent(html_3351f9afaef740c385630c13a08570d9);
+            
+
+            circle_881aa4b59db74087a4ca65c7ab22a5b5.bindPopup(popup_7eb8948336bf4f49ac9c35852c1ba404)
+            ;
+
+            
+        
+    
+
+            var circle_a6bb84de062549559bdbbc3b66112fd1 = L.circle(
+                [18.02222735, -63.044359755331854],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2876.8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_7d3bea3a74954a159d69fd3ee2f108e3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ca626ad3362a4bf5817cd8c2e0e3f6bc = $(`<div id="html_ca626ad3362a4bf5817cd8c2e0e3f6bc" style="width: 100.0%; height: 100.0%;">Country:<b>Sint Maarten (Dutch part)</b> Cases:<b>43152</b></div>`)[0];
+                popup_7d3bea3a74954a159d69fd3ee2f108e3.setContent(html_ca626ad3362a4bf5817cd8c2e0e3f6bc);
+            
+
+            circle_a6bb84de062549559bdbbc3b66112fd1.bindPopup(popup_7d3bea3a74954a159d69fd3ee2f108e3)
+            ;
+
+            
+        
+    
+
+            var circle_f78b3d22ab2a4365b6078dc7297d1af4 = L.circle(
+                [48.7411522, 19.4528646],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 28236.8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_c6306eee9671461891c3e26f1696f939 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_fe375b19877a4bc58583c56f27033a51 = $(`<div id="html_fe375b19877a4bc58583c56f27033a51" style="width: 100.0%; height: 100.0%;">Country:<b>Slovakia</b> Cases:<b>423552</b></div>`)[0];
+                popup_c6306eee9671461891c3e26f1696f939.setContent(html_fe375b19877a4bc58583c56f27033a51);
+            
+
+            circle_f78b3d22ab2a4365b6078dc7297d1af4.bindPopup(popup_c6306eee9671461891c3e26f1696f939)
+            ;
+
+            
+        
+    
+
+            var circle_75b83e91fda0418c94fb9c046b7d3ceb = L.circle(
+                [45.8133113, 14.4808369],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 69881.6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_8caedd180a9744719a267a100e3f4add = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d67f369c1e8f41a4b0cf4f5218560f13 = $(`<div id="html_d67f369c1e8f41a4b0cf4f5218560f13" style="width: 100.0%; height: 100.0%;">Country:<b>Slovenia</b> Cases:<b>1048224</b></div>`)[0];
+                popup_8caedd180a9744719a267a100e3f4add.setContent(html_d67f369c1e8f41a4b0cf4f5218560f13);
+            
+
+            circle_75b83e91fda0418c94fb9c046b7d3ceb.bindPopup(popup_8caedd180a9744719a267a100e3f4add)
+            ;
+
+            
+        
+    
+
+            var circle_f358947c5e404f5bb7eeed3e7b760d68 = L.circle(
+                [-28.8166236, 24.991639],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 41577.6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_eaaf3cbf67324de48cd46519fbe41897 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_7cf4d337225146e1b0c0329a82ecee20 = $(`<div id="html_7cf4d337225146e1b0c0329a82ecee20" style="width: 100.0%; height: 100.0%;">Country:<b>South Africa</b> Cases:<b>623664</b></div>`)[0];
+                popup_eaaf3cbf67324de48cd46519fbe41897.setContent(html_7cf4d337225146e1b0c0329a82ecee20);
+            
+
+            circle_f358947c5e404f5bb7eeed3e7b760d68.bindPopup(popup_eaaf3cbf67324de48cd46519fbe41897)
+            ;
+
+            
+        
+    
+
+            var circle_4eb87403ee514b2dbd8fa95d7592ee63 = L.circle(
+                [36.638392, 127.6961188],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 33276.8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_dcffc94b1d344bb888c07cc00841a574 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a849b3ceff4748b18499b82aca3fb3b8 = $(`<div id="html_a849b3ceff4748b18499b82aca3fb3b8" style="width: 100.0%; height: 100.0%;">Country:<b>South Korea</b> Cases:<b>499152</b></div>`)[0];
+                popup_dcffc94b1d344bb888c07cc00841a574.setContent(html_a849b3ceff4748b18499b82aca3fb3b8);
+            
+
+            circle_4eb87403ee514b2dbd8fa95d7592ee63.bindPopup(popup_dcffc94b1d344bb888c07cc00841a574)
+            ;
+
+            
+        
+    
+
+            var circle_7a4d46758ef74a679759a526813e7675 = L.circle(
+                [39.3260685, -4.8379791],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 125182.4,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_47d2c10ad8ee49f98d8dd8b7aa06e720 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ec9770aa95a44d62a920cf7ae150892f = $(`<div id="html_ec9770aa95a44d62a920cf7ae150892f" style="width: 100.0%; height: 100.0%;">Country:<b>Spain</b> Cases:<b>1877736</b></div>`)[0];
+                popup_47d2c10ad8ee49f98d8dd8b7aa06e720.setContent(html_ec9770aa95a44d62a920cf7ae150892f);
+            
+
+            circle_7a4d46758ef74a679759a526813e7675.bindPopup(popup_47d2c10ad8ee49f98d8dd8b7aa06e720)
+            ;
+
+            
+        
+    
+
+            var circle_863e15fdafec43cfa8fe6797f2d8453b = L.circle(
+                [7.5554942, 80.7137847],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3766.4,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_d9b6f2812ff44fd095abc3ade5a67674 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_41e479c8818c42649bf0453cd03d9166 = $(`<div id="html_41e479c8818c42649bf0453cd03d9166" style="width: 100.0%; height: 100.0%;">Country:<b>Sri Lanka</b> Cases:<b>56496</b></div>`)[0];
+                popup_d9b6f2812ff44fd095abc3ade5a67674.setContent(html_41e479c8818c42649bf0453cd03d9166);
+            
+
+            circle_863e15fdafec43cfa8fe6797f2d8453b.bindPopup(popup_d9b6f2812ff44fd095abc3ade5a67674)
+            ;
+
+            
+        
+    
+
+            var circle_0fb2af89a7fa40e4ac6cc911bc793708 = L.circle(
+                [4.1413025, -56.0771187],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1489.6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_5d2dc6cac0864ffa996016ad8d181f16 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3f15ef5b4488429bac7e1bfc6d860f65 = $(`<div id="html_3f15ef5b4488429bac7e1bfc6d860f65" style="width: 100.0%; height: 100.0%;">Country:<b>Suriname</b> Cases:<b>22344</b></div>`)[0];
+                popup_5d2dc6cac0864ffa996016ad8d181f16.setContent(html_3f15ef5b4488429bac7e1bfc6d860f65);
+            
+
+            circle_0fb2af89a7fa40e4ac6cc911bc793708.bindPopup(popup_5d2dc6cac0864ffa996016ad8d181f16)
+            ;
+
+            
+        
+    
+
+            var circle_57db31a988fd44088687d7a3161f983d = L.circle(
+                [59.6749712, 14.5208584],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 220566.4,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_10c1c94d70cc45d0ac6210c2beb610b0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_49c0cf1d896544868a5b61d9e5c9fc6f = $(`<div id="html_49c0cf1d896544868a5b61d9e5c9fc6f" style="width: 100.0%; height: 100.0%;">Country:<b>Sweden</b> Cases:<b>3308496</b></div>`)[0];
+                popup_10c1c94d70cc45d0ac6210c2beb610b0.setContent(html_49c0cf1d896544868a5b61d9e5c9fc6f);
+            
+
+            circle_57db31a988fd44088687d7a3161f983d.bindPopup(popup_10c1c94d70cc45d0ac6210c2beb610b0)
+            ;
+
+            
+        
+    
+
+            var circle_5b388d304a954a3ab5c7a01ea5598e72 = L.circle(
+                [46.7985624, 8.2319736],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 159467.2,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_8e9d7db3a4d4495589b253fd10871c68 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_081d489ebf744b80af96fe249b0bc4f4 = $(`<div id="html_081d489ebf744b80af96fe249b0bc4f4" style="width: 100.0%; height: 100.0%;">Country:<b>Switzerland</b> Cases:<b>2392008</b></div>`)[0];
+                popup_8e9d7db3a4d4495589b253fd10871c68.setContent(html_081d489ebf744b80af96fe249b0bc4f4);
+            
+
+            circle_5b388d304a954a3ab5c7a01ea5598e72.bindPopup(popup_8e9d7db3a4d4495589b253fd10871c68)
+            ;
+
+            
+        
+    
+
+            var circle_42bda406ec984314998ff99991ec7097 = L.circle(
+                [14.8971921, 100.83273],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 14428.8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_260437fde24548889d2a69f62ad559fc = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5ee45a5ca34140ea97657ef57e7b329e = $(`<div id="html_5ee45a5ca34140ea97657ef57e7b329e" style="width: 100.0%; height: 100.0%;">Country:<b>Thailand</b> Cases:<b>216432</b></div>`)[0];
+                popup_260437fde24548889d2a69f62ad559fc.setContent(html_5ee45a5ca34140ea97657ef57e7b329e);
+            
+
+            circle_42bda406ec984314998ff99991ec7097.bindPopup(popup_260437fde24548889d2a69f62ad559fc)
+            ;
+
+            
+        
+    
+
+            var circle_c1e975bf18f6499597e4ec17d3fadc92 = L.circle(
+                [8.7800265, 1.0199765],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 540.8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_b825c530dfcd414f9aacdbd6ac8079d8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5da5a645f436464f9286374da57b4fe3 = $(`<div id="html_5da5a645f436464f9286374da57b4fe3" style="width: 100.0%; height: 100.0%;">Country:<b>Togo</b> Cases:<b>8112</b></div>`)[0];
+                popup_b825c530dfcd414f9aacdbd6ac8079d8.setContent(html_5da5a645f436464f9286374da57b4fe3);
+            
+
+            circle_c1e975bf18f6499597e4ec17d3fadc92.bindPopup(popup_b825c530dfcd414f9aacdbd6ac8079d8)
+            ;
+
+            
+        
+    
+
+            var circle_f617d78367d143e0a4f92e427e878880 = L.circle(
+                [10.8677845, -60.9821067],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2297.6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_3e2898248a7d4008b57c9cdcc885fe49 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_59505c024d594eecb0311159332e8b68 = $(`<div id="html_59505c024d594eecb0311159332e8b68" style="width: 100.0%; height: 100.0%;">Country:<b>Trinidad and Tobago</b> Cases:<b>34464</b></div>`)[0];
+                popup_3e2898248a7d4008b57c9cdcc885fe49.setContent(html_59505c024d594eecb0311159332e8b68);
+            
+
+            circle_f617d78367d143e0a4f92e427e878880.bindPopup(popup_3e2898248a7d4008b57c9cdcc885fe49)
+            ;
+
+            
+        
+    
+
+            var circle_2979fcf3da4a4c75b5d0c5e0ccbb678d = L.circle(
+                [38.9597594, 34.9249653],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 122972.8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_9757ebce5c084ec4a72a671d41f407dc = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_233759a93dbf4fb288edb63756f785ec = $(`<div id="html_233759a93dbf4fb288edb63756f785ec" style="width: 100.0%; height: 100.0%;">Country:<b>Turkey</b> Cases:<b>1844592</b></div>`)[0];
+                popup_9757ebce5c084ec4a72a671d41f407dc.setContent(html_233759a93dbf4fb288edb63756f785ec);
+            
+
+            circle_2979fcf3da4a4c75b5d0c5e0ccbb678d.bindPopup(popup_9757ebce5c084ec4a72a671d41f407dc)
+            ;
+
+            
+        
+    
+
+            var circle_945306caf5e64c44a915cba8a744399f = L.circle(
+                [1.5333554, 32.2166578],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1272.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_685d9ad2c284403e816e954e5c4a5651 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_cb5dfdd024f9440eb664acb65a4a4f18 = $(`<div id="html_cb5dfdd024f9440eb664acb65a4a4f18" style="width: 100.0%; height: 100.0%;">Country:<b>Uganda</b> Cases:<b>19080</b></div>`)[0];
+                popup_685d9ad2c284403e816e954e5c4a5651.setContent(html_cb5dfdd024f9440eb664acb65a4a4f18);
+            
+
+            circle_945306caf5e64c44a915cba8a744399f.bindPopup(popup_685d9ad2c284403e816e954e5c4a5651)
+            ;
+
+            
+        
+    
+
+            var circle_23d4e23932b94d27ae63e5f7553bb20e = L.circle(
+                [49.4871968, 31.2718321],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 982.4,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_0466a85efe664cf0a836dc2b90961f02 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e3135c21568c44479149628c71d33b4d = $(`<div id="html_e3135c21568c44479149628c71d33b4d" style="width: 100.0%; height: 100.0%;">Country:<b>Ukraine</b> Cases:<b>14736</b></div>`)[0];
+                popup_0466a85efe664cf0a836dc2b90961f02.setContent(html_e3135c21568c44479149628c71d33b4d);
+            
+
+            circle_23d4e23932b94d27ae63e5f7553bb20e.bindPopup(popup_0466a85efe664cf0a836dc2b90961f02)
+            ;
+
+            
+        
+    
+
+            var circle_e657361a9df744f9922610166115f8c2 = L.circle(
+                [24.0002488, 53.9994829],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3984.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_2bded87482714b3798e376b7f06f08b4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0f4d2e2284e14154b40cd971a42e5995 = $(`<div id="html_0f4d2e2284e14154b40cd971a42e5995" style="width: 100.0%; height: 100.0%;">Country:<b>United Arab Emirates</b> Cases:<b>59760</b></div>`)[0];
+                popup_2bded87482714b3798e376b7f06f08b4.setContent(html_0f4d2e2284e14154b40cd971a42e5995);
+            
+
+            circle_e657361a9df744f9922610166115f8c2.bindPopup(popup_2bded87482714b3798e376b7f06f08b4)
+            ;
+
+            
+        
+    
+
+            var circle_13d8df0aa2f24230a379d093356de626 = L.circle(
+                [54.7023545, -3.2765753],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2495171.2,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_33328e5ad28a49d3b44b3ed83cde55f3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9639f98d265748e2b2fd18d5adeb807d = $(`<div id="html_9639f98d265748e2b2fd18d5adeb807d" style="width: 100.0%; height: 100.0%;">Country:<b>United Kingdom</b> Cases:<b>37427568</b></div>`)[0];
+                popup_33328e5ad28a49d3b44b3ed83cde55f3.setContent(html_9639f98d265748e2b2fd18d5adeb807d);
+            
+
+            circle_13d8df0aa2f24230a379d093356de626.bindPopup(popup_33328e5ad28a49d3b44b3ed83cde55f3)
+            ;
+
+            
+        
+    
+
+            var circle_9163fa9e88be4b4488f6d3c0f6f5b615 = L.circle(
+                [39.7837304, -100.445882],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3330683.2,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_f0aa6175766e4eb995aa5edcd5be266f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_049a098ebbba42cbb1985e8e3f79b652 = $(`<div id="html_049a098ebbba42cbb1985e8e3f79b652" style="width: 100.0%; height: 100.0%;">Country:<b>United States</b> Cases:<b>49960248</b></div>`)[0];
+                popup_f0aa6175766e4eb995aa5edcd5be266f.setContent(html_049a098ebbba42cbb1985e8e3f79b652);
+            
+
+            circle_9163fa9e88be4b4488f6d3c0f6f5b615.bindPopup(popup_f0aa6175766e4eb995aa5edcd5be266f)
+            ;
+
+            
+        
+    
+
+            var circle_cd6cf2c574574558b533a2b7ab927c80 = L.circle(
+                [-32.8755548, -56.0201525],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1091.2,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_87a5b8d5bcc74a1bbcf07d2952e4f7f1 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_14cf383e3a7c49b0ba1f3ebe58e2f901 = $(`<div id="html_14cf383e3a7c49b0ba1f3ebe58e2f901" style="width: 100.0%; height: 100.0%;">Country:<b>Uruguay</b> Cases:<b>16368</b></div>`)[0];
+                popup_87a5b8d5bcc74a1bbcf07d2952e4f7f1.setContent(html_14cf383e3a7c49b0ba1f3ebe58e2f901);
+            
+
+            circle_cd6cf2c574574558b533a2b7ab927c80.bindPopup(popup_87a5b8d5bcc74a1bbcf07d2952e4f7f1)
+            ;
+
+            
+        
+    
+
+            var circle_b57ecf6c845d4663bd2b00270751d626 = L.circle(
+                [13.2904027, 108.4265113],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2888.0,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_b6a14838506a4ebea263779944f88d9a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_66e284759c9e4ee783a17b5713b2a808 = $(`<div id="html_66e284759c9e4ee783a17b5713b2a808" style="width: 100.0%; height: 100.0%;">Country:<b>Vietnam</b> Cases:<b>43320</b></div>`)[0];
+                popup_b6a14838506a4ebea263779944f88d9a.setContent(html_66e284759c9e4ee783a17b5713b2a808);
+            
+
+            circle_b57ecf6c845d4663bd2b00270751d626.bindPopup(popup_b6a14838506a4ebea263779944f88d9a)
+            ;
+
+            
+        
+    
+
+            var circle_757a3cd082bd4ec783af1f5f0704d9b7 = L.circle(
+                [-14.5189121, 27.5589884],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1787.2,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_06135480b8f54d70af965e6a6b04ebc8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1e7dec3b9502456aa36c308d8634c3d0 = $(`<div id="html_1e7dec3b9502456aa36c308d8634c3d0" style="width: 100.0%; height: 100.0%;">Country:<b>Zambia</b> Cases:<b>26808</b></div>`)[0];
+                popup_06135480b8f54d70af965e6a6b04ebc8.setContent(html_1e7dec3b9502456aa36c308d8634c3d0);
+            
+
+            circle_757a3cd082bd4ec783af1f5f0704d9b7.bindPopup(popup_06135480b8f54d70af965e6a6b04ebc8)
+            ;
+
+            
+        
+    
+
+            var circle_4d205570adcb41eba3c22f8d0652dc52 = L.circle(
+                [-18.4554963, 29.7468414],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1097.6,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_72f8db39dd5a414b95b82874092db558);
+            
+    
+            var popup_98123b2e7eff462da865a6a355299653 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a6158cc69c5a423db6cd4c852fbfeaa2 = $(`<div id="html_a6158cc69c5a423db6cd4c852fbfeaa2" style="width: 100.0%; height: 100.0%;">Country:<b>Zimbabwe</b> Cases:<b>16464</b></div>`)[0];
+                popup_98123b2e7eff462da865a6a355299653.setContent(html_a6158cc69c5a423db6cd4c852fbfeaa2);
+            
+
+            circle_4d205570adcb41eba3c22f8d0652dc52.bindPopup(popup_98123b2e7eff462da865a6a355299653)
+            ;
+
+            
+        
+</script>
